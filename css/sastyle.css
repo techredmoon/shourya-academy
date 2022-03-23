@@ -1,0 +1,138 @@
+.link{
+    text-decoration: none;
+    color: orange;
+    
+}
+.link:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+    transform: scale(1.5);
+}
+
+.link-icon{
+    transition: transform .2s;
+    
+}
+.link-icon:hover{
+
+    transition: all 0.2s ease-in-out;
+    
+}
+
+
+#navtop{
+   background-color: rgb(255, 89, 0); 
+}
+#navbar{
+    padding: 0%;
+}
+.nav-link{
+    color: white !important;
+    
+}
+
+.nav-link:hover{
+    background-color: rgb(96, 18, 0) !important;
+    
+    margin: 0%;
+}
+.nav-link:active{
+    background-color: rgb(96, 18, 0) !important;
+}
+#footer{
+    background-color: rgb(41, 39, 39);
+}
+
+#advt{
+    background-color: red;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count:25;
+    position:absolute;
+    padding: 0%;
+
+  }
+  
+@keyframes example {
+    from {background-color: rgb(0, 255, 251);}
+    to {background-color: rgb(255, 255, 0);}
+  }
+
+#slider{
+     width: 100%;
+     padding-left: 0%;
+     padding-right: 0%;
+
+      
+  }
+#slideshow{
+    padding-left: 0%;
+    padding-right: 0%;
+
+  }
+
+#youtube{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dropdown-menu:hover{
+    background-color: rgb(255, 119, 0) !important;
+}
+
+#logo{
+    padding: 0%;
+    margin: 0%;
+    color: aqua;
+    border: solid aqua 1px;
+    border-radius: 15px;
+
+}
+
+div> h3,h1{
+    color: rgb(109, 0, 0) !important;
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+div>p{
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.topheader{
+    color: rgb(0, 0, 0) !important;
+    background-color: yellowgreen !important;
+}
+.btn-danger{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    color: white;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 15px;
+    border: solid black 1px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top:10%;
+  left: 10%;
+
+}
+.slidetext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+    color: rgb(255, 89, 0);
+}
+
+.banner{
+    padding: 3% !important;
+    
+}
