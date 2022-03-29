@@ -1,6 +1,6 @@
 
 <?php 
-  $title = 'Registration';
+  $title = 'Payment';
   $blogcard = 'Recent Blogs'; 
   require_once 'includes/header.php';
 ?>
@@ -10,7 +10,7 @@
 
 <div class="container-fluid bg-info text-center banner">
   <div class="banner container">
-    <h1 class="display-5 fw-bold lh-1 mb-3">Register Your Self</h1>
+    <h1 class="display-5 fw-bold lh-1 mb-3">Verify Details & Pay</h1>
     <p></p>
     </div>
 </div>
@@ -18,7 +18,7 @@
 <div class="container-fluid bg-info" id="">
   
     <div class="container bg-warning py-5 px-5 col-8" id="">
-        <form class="row g-3" action="payment.php" method='post'>
+        <form class="row g-3" action="/payment.php">
         <h5 class="py-2">Persnoal Details :</h5>
             <div class="col-6">
 
@@ -69,8 +69,19 @@
             <div class="col-6">
                 <input type="add3" class="form-control" id="add3" placeholder="Pincode">
             </div>
+            <div class=" col-12 text-center">
+                <h5> Pay Using Below UPI Method</h5>
+            <i class="fa-brands fa-google-pay fa-3x"></i>
+            </div>
+
+            <h5 class="text-center"> Upload Screensort or Transcation Id</h5>
+            <div class="custom-file col-12 text-center">
+                <input type="file" class="custom-file-input col-6" id="customFile">
+
+                <input type="pay" class="form-control col-6" id="pay" placeholder="Transaction Id">
+            </div>
             <div class="col-12 align-items-center">
-                <button type="submit" class="btn btn-primary px-5">Save & Next</button>
+                <button type="submit" class="btn btn-primary px-5">Submit Registration Form</button>
             </div>
         </form>
        
@@ -83,7 +94,6 @@
     </div>
 </div>
 
-<?php require_once 'includes/blogcard.php'; ?>
 
 <?php require_once 'includes/footer.php'; ?>
 

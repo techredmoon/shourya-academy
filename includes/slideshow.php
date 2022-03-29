@@ -10,7 +10,7 @@
 
     <div class="carousel-item active">
       <img src="static/images/cadets.jpeg" class="d-block w-100" alt="...">
-      <div class="top-left">
+      <div class="top-left container-fluid col-6">
 
       <h2 class="slidetext">Shourya Academy</h2>
       </div>
@@ -18,16 +18,16 @@
     </div>
     <div class="carousel-item" >
       <img src="static/images/cadets1.jpeg" class="d-block w-100" alt="...">
-      <div class="top-left">
+      <div class="top-left container-fluid col-6">
       
-      <h2 class="slidetext">Education Needs Complete Solution</h2>
-      <h2></h2>
+      <h2 class="slidetext">Education</h2>
+      <h3 style="background-color:white;color:black;"><b>Needs Complete Solution<b></h3>
     </div>
     
     </div>
     <div class="carousel-item" >
       <img src="static/images/cadets1.jpeg" class="d-block w-100" alt="...">
-      <div class="top-left">
+      <div class="top-left container-fluid col-6">
       
       <h2 class="slidetext">Shourya Academy</h2>
       <h2></h2>

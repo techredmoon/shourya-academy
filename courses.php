@@ -14,6 +14,8 @@
   <div class="container banner">
     <h1 class="display-5 fw-bold lh-1 mb-3">Courses & Training</h1>
     </div>
+
+<hr>
 </div>
 
 
