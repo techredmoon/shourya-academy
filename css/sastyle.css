@@ -155,3 +155,23 @@ div>p{
 #whatsicon{
     margin-top: 16px;
 }
+
+.error {
+    width: 100%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #f10a06; 
+    color: #f30e0a; 
+    background: #868484; 
+    border-radius: 5px; 
+    text-align: left;
+    z-index: 100;
+    
+  }
+  .success {
+    color: #f8faf8; 
+    background: #4aff03; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+    padding: 10px;
+  }

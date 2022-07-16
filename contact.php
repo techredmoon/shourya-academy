@@ -1,4 +1,6 @@
-
+<?php 
+  include('contact-query.php');
+?>
 <?php 
   $title = 'Contact';
   $blogcard = 'Recent Blogs';
@@ -38,7 +40,7 @@
 
 
 
-<div class="container-fluid bg-info p-5" id="">
+<div class="container-fluid bg-info p-5" id="scroll">
   <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 text-dark">
     <div class="col py-4">
         <h4>Find Us Here</h4>
@@ -60,21 +62,25 @@
     </div>
     <div class="col bg-warning">
         <div class="p-6 m-5">
-            <form>
+            <form method="GET" action="contact.php#scroll">
                <h2>Contact Form</h2>
+               <?php
+                include('errors.php');
+                include('success.php');
+               ?>
                <div class="form-group py-2">
-                    <input type="text" class="form-control" placeholder="Enter Name" id="name">
+                    <input type="text" class="form-control" placeholder="Enter Name" id="name" name="name">
                 </div>
                 <div class="form-group py-2">
-                    <input type="text" class="form-control" placeholder="Enter Phone Number" id="phone">
+                    <input type="text" class="form-control" placeholder="Enter Phone Number" id="phone" name="number">
                 </div>
                 <div class="form-group py-2">
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email" name="email">
                 </div>
                 <div class="form-group py-2">
-                    <textarea class="form-control" id="txtarea" rows="3" placeholder="Write Your Query Here ..."></textarea>
+                    <textarea class="form-control" id="txtarea" rows="3" placeholder="Write Your Query Here ..." name="query"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" class="btn btn-primary" name="submit-query" value="submit-query">Send</button>
             </form>
         </div>
     </div>
