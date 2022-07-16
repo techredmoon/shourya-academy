@@ -36,9 +36,9 @@
   </div>
 
 
-  <div class="container-fluid float-right fixed-bottom" id="whatsicon">
-      <a href="https://api.whatsapp.com/send?phone=+919798451257" target="_blank">
-				<i class="fa fa-whatsapp fa-align-right fa-5x"></i>
+  <div class="container-fluid float-right fixed-bottom" id="">
+      <a href="https://api.whatsapp.com/send?phone=+919798451257" target="_blank" class="whatsapp-icon">
+				<i class="fa fa-whatsapp" id="whatsicon"></i>
 		  </a>
     
     </div>
