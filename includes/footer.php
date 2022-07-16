@@ -55,7 +55,7 @@
           <li class="ms-3"><a class="link-success link-icon" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
       </ul>
       </div>
-      <div class="col"><p>Managed & Developed by <a href="#" class="link">Red Moon Tech</a> © 2022 Shourya Academy. All rights reserved.</p></div>
+      <div class="col"><p>Managed & Developed by <a href="https://techredmoon.github.io/red-moon-tech/" class="link">Red Moon Tech</a> © 2022 Shourya Academy. All rights reserved.</p></div>
      
     </div>
     
