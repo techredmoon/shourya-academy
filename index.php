@@ -98,6 +98,7 @@ Shourya Academy coaching is a foremost Institution which is providing preparatio
 </div>
 
 
+<?php require_once 'includes/result-list.php'; ?>
 
 <?php require_once 'includes/teachercard.php'; ?>
 

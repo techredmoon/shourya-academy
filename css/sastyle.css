@@ -175,3 +175,18 @@ div>p{
     margin-bottom: 20px;
     padding: 10px;
   }
+
+  .viewall {
+    margin: 0 auto;
+    max-width: 100px;
+    margin-top: 15px;
+  }
+
+  .viewall-child{
+    border: solid;
+    padding: 10px;
+    color: rgb(25, 0, 255);
+    font-weight: bold;
+  }
+
+  
