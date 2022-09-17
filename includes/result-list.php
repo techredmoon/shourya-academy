@@ -7,7 +7,7 @@
         <div class="row autoplay-slider">
             <?php
                 $result_query = "SELECT * FROM t_notice_board ORDER BY id DESC";
-                include('C:\xampp\htdocs\shourya-academy\connection.php');
+                include('connection.php');
 
                 if(!$db) {
                     echo "Error : Unable to open database\n";
