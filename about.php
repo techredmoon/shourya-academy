@@ -22,7 +22,7 @@
 <div class="container-fluid bg-light">
     <div class="row flex-lg-row-reverse align-items-center p-3">
       <div class="col-10 col-sm-8 col-lg-5">
-        <img src="static/images/man-icon.png" class="img-fluid" alt="Bootstrap Themes" width="400" height="300" loading="lazy">
+        <img src="static/images/mission1.png" class="img-fluid" alt="Bootstrap Themes" width="400" height="300" loading="lazy">
       </div>
       <div class="col-lg-7 py-3" id="mission">
         <h1 class="display-5 fw-bold lh-1 mb-3">Our Mission</h1>
@@ -40,7 +40,7 @@
   <div class="container-fluid bg-warning">
     <div class="row flex-lg-row align-items-center p-3">
       <div class="col-10 col-sm-8 col-lg-5">
-        <img src="static/images/man-icon.png" class="img-fluid" alt="Bootstrap Themes" width="400" height="300" loading="lazy">
+        <img src="static/images/vision.png" class="img-fluid" alt="Bootstrap Themes" width="400" height="300" loading="lazy">
       </div>
       <div class="col-lg-7 py-3" id="mission">
         <h1 class="display-5 fw-bold lh-1 mb-3">Our Vision</h1>

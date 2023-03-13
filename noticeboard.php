@@ -2,6 +2,7 @@
 <?php 
   $title = 'Notice';
   $blogcard= 'Recent Blogs';
+  $noticecard = '';
   require_once 'includes/header.php';
 ?>
 
@@ -16,7 +17,8 @@
 
 <div class="container-fluid bg-light text-center">
   <div class="container bg-warning">
-      <h1>Table content</h1>
+
+      <?php require_once 'includes/noticecard.php'; ?>
     </div>
 </div>
 

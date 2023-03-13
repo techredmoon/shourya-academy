@@ -45,15 +45,7 @@
         <div id="googleMap" style="width:100%;height:400px;">
     
             <!-- Google Map Copied Code -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1835902.6225145622!2d82.80801475383218!3d26.00909374780007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d25.5612678!2d84.8672162!4m5!1s0x39915b9b0ddc7b37%3A0x5f8e566fce29ba57!2sshourya%20academy%20gorakhpur!3m2!1d26.75808!2d83.4190776!5e0!3m2!1sen!2sin!4v1647774288723!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    width="100"
-                    height="100"
-                    frameborder="0"
-                    style="border:0;"
-                    allowfullscreen=""
-                    aria-hidden="false"
-                    tabindex="0">
-            </iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.5722779869625!2d83.41904269999999!3d26.7580221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39915b9b0ddc7b37%3A0x5f8e566fce29ba57!2sSHOURYA%20ACADEMY%20-%20Sainik%20School%2C%20Military%20School%20Coaching!5e0!3m2!1sen!2sin!4v1669291630008!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
        
         
          </div>    

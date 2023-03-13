@@ -11,6 +11,12 @@
 
 <?php require_once 'includes/slideshow.php'; ?>
 
+
+<div class="container-fluid bg-success">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 text-white text-center">
+  <img src="static/images/notice5.jpeg" alt="ads">
+</div>
+</div>
 <div class="container-fluid bg-info">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 text-white text-center">
     <div class="col py-4 bg-info">
@@ -106,4 +112,33 @@ Shourya Academy coaching is a foremost Institution which is providing preparatio
 <?php require_once 'includes/blogcard.php'; ?>
 
 <?php require_once 'includes/footer.php'; ?>
+
+<div id="popup">
+
+    <!-- and here comes the image -->
+    <img src="static/images/notice1.jpeg" style="height:80%; width: 80%;" alt="popup">
+
+        <!-- Now this is the button which closes the popup-->
+        <button id="close"> X </button>
+
+        <!-- and finally we close the POPUP FRAME-->
+        <!-- everything on it will show up within the popup so you can add more things not just an image -->
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function () {
+
+    //select the POPUP FRAME and show it
+    $("#popup").hide().fadeIn(1000);
+
+    //close the POPUP if the button with id="close" is clicked
+    $("#close").on("click", function (e) {
+        e.preventDefault();
+        $("#popup").fadeOut(1000);
+    });
+
+});
+</script>
 

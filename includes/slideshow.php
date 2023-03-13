@@ -13,6 +13,8 @@
       <div class="top-left container-fluid col-6">
 
       <h2 class="slidetext">Shourya Academy</h2>
+
+      <h3 style="background-color:white;color:black; text-align: center;"><b>Education Needs Complete Solution<b></h3>
       </div>
       
     </div>
@@ -20,17 +22,18 @@
       <img src="static/images/cadets1.jpeg" class="d-block w-100" alt="...">
       <div class="top-left container-fluid col-6">
       
-      <h2 class="slidetext">Education</h2>
-      <h3 style="background-color:white;color:black;"><b>Needs Complete Solution<b></h3>
+      <h2 class="slidetext">Shourya Academy</h2>
+      <h3 style="background-color:white;color:black; text-align: center;"><b>Empowering Students<b></h3>
     </div>
     
     </div>
     <div class="carousel-item" >
-      <img src="static/images/cadets1.jpeg" class="d-block w-100" alt="...">
+      <img src="static/images/cadets3.jpeg" class="d-block w-100" alt="...">
       <div class="top-left container-fluid col-6">
       
       <h2 class="slidetext">Shourya Academy</h2>
-      <h2></h2>
+      
+      <h3 style="background-color:white;color:black; text-align: center;"><b>Anything possible here<b></h3>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

@@ -130,9 +130,20 @@ div>p{
     font-weight: bold;
     text-shadow: 4px 4px 5px rgb(0, 0, 0);
     color: rgb(255, 89, 0);
+    text-shadow: 5px 5px 10px black;
 }
 
 .banner{
     padding: 3% !important;
     
+}
+
+#popup {
+        display:none;
+        position:absolute;
+        margin:0 auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
 }
