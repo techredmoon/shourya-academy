@@ -9,6 +9,18 @@
 
 <?php require_once 'includes/navbar.php'; ?>
 
+<div id="popup">
+
+    <!-- and here comes the image -->
+    <img src="static/images/notice1.jpeg" style="height:80%; width: 80%;" alt="popup">
+
+        <!-- Now this is the button which closes the popup-->
+        <button id="close"> X </button>
+
+        <!-- and finally we close the POPUP FRAME-->
+        <!-- everything on it will show up within the popup so you can add more things not just an image -->
+</div>
+
 <?php require_once 'includes/slideshow.php'; ?>
 
 
